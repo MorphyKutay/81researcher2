@@ -24,4 +24,4 @@ with open(value, "r") as file:
         api_key = content[start_index:end_index].strip()
         print("API anahtarı:", api_key)
     else:
-         raise ValueError("Hata: API anahtarı bulunamadı!")
+         print("HATA: API anahtarı bulunamadı!")
